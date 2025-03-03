@@ -105,7 +105,8 @@ body{overflow-x: hidden;width: 100%;height:100%;}
      .toggle-icon{
         display: block;
      }
+     .navbar-links ul.active{
+        display: flex;
+     }
  }
- .navbar-links ul.active{
-    display: block;
- }
+ 
