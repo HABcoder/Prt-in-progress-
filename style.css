@@ -29,8 +29,26 @@ body{overflow-x: hidden;width: 100%;height:100%;}
 
 .navbar-links ul li a{
     text-decoration: none;
+    position: relative;
     font-size: 140%;
     color: black;
+    transition: 0.3s ease;
+}
+.navbar-links ul li a:hover {
+    color: aqua;    
+}
+.navbar-links ul li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0%;
+    bottom: 0%;
+    height: 3px;
+    background-color: aqua;
+    transition: 0.3s ease;
+}
+.navbar-links ul li a:hover::before{
+    width: 100%;
 }
 
 .navbar-links ul li i{
