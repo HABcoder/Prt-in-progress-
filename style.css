@@ -16,6 +16,11 @@ body{overflow-x: hidden;width: 100%;height:100%;}
     text-align: center;
     /* background-color: blueviolet; */
 }
+.toggle-icon{
+    display: none;
+    padding: 20px;
+    font-size: 150%;
+}
 .navbar-links ul {
     display: flex;
     gap: 10%;
@@ -30,7 +35,6 @@ body{overflow-x: hidden;width: 100%;height:100%;}
 
 .navbar-links ul li a{
     text-decoration: none;
-    position: relative;
     font-size: 140%;
     color: black;
     transition: 0.3s ease;
@@ -85,4 +89,23 @@ body{overflow-x: hidden;width: 100%;height:100%;}
         position: relative;
         font-size: 120%;
     }
+ }
+
+ @media (max-width:768px){
+    .navbar-links ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        gap: 10px;
+        background-color: rgb(253, 178, 38);
+    }
+     .toggle-icon{
+        display: block;
+     }
+ }
+ .navbar-links ul.active{
+    display: block;
  }
