@@ -10,3 +10,13 @@ var typed = new Typed('#typed', {
     backDelay: 1000,
     loop: true
 });
+
+const body = document.querySelector("body");
+const navbar = document.querySelector("#navbar");
+const navlinks = document.querySelector("#navlinks");
+let modeToggle = document.querySelector(".icon");
+const homeText = document.querySelector("#home");
+
+modeToggle.addEventListener("click" , () => {
+    modeToggle.classList.toggle("active");
+})

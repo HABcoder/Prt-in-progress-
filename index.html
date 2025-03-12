@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar" id="navbar">    
         <div class="logo"><h2>logo</h2></div>
         <div class="navbar-links" id="navlinks">
             <ul>
@@ -18,10 +18,16 @@
                 <li><a href="">Skill</a></li>
                 <li><a href="">About Us</a></li>
                 <li><a href="">Contact</a></li>
-                <li class="icon"><i class="ri-sun-line" id="sun"></i><i class="ri-moon-line" id="moon"></i></li>
             </ul>
         </div>
-        <div class="toggle-icon"><i class="ri-bar-chart-horizontal-line" onclick="toggleMenu()"></i></div>
+        <div class="side-icons">
+            <div class="icon">
+                <i class="ri-sun-line" id="sun"></i>
+                <i class="ri-moon-line" id="moon"></i>
+            </div>
+            <div class="toggle-icon"><i class="ri-bar-chart-horizontal-line" onclick="toggleMenu()"></i></div>
+        </div>
+       
     </div>
 
     <!-- body section  -->
@@ -29,10 +35,10 @@
         <div class="main">
             <div class="div1"> 
                 <div class="home">
-                    <h3>Hello, It's Me</h3>
-                    <h1>Habiba Mursaleen</h1>
-                    <h3>And I'm a <span id="typed"></span></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates sed facilis accusamus, eaque cum h
+                    <h3 id="home">Hello, It's Me</h3>
+                    <h1 id="home">Habiba Mursaleen</h1>
+                    <h3 id="home">And I'm a <span id="typed"></span></h3>
+                    <p id="home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates sed facilis accusamus, eaque cum h
                         ic in aliquid, et libero facere, velit exercitationem ab quasi magni impedit quod quas soluta?
                     </p>
                     <div class="social-icons">
