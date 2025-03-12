@@ -9,4 +9,4 @@ var typed = new Typed('#typed', {
     backSpeed: 100,
     backDelay: 1000,
     loop: true
-})
+});
