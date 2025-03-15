@@ -16,7 +16,9 @@ const navbar = document.querySelector("#navbar");
 const navlinks = document.querySelector("#navlinks");
 let modeToggle = document.querySelector(".icon");
 const homeText = document.querySelector("#home");
+let toggleMenu = document.getElementById("toggle");
 
 modeToggle.addEventListener("click" , () => {
     modeToggle.classList.toggle("active");
-})
+});
+

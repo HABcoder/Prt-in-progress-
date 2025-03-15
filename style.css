@@ -129,6 +129,9 @@ body{overflow-x: hidden;width: 100%;height:100%; font-family: "poppin", sans-ser
  }
 
  @media (max-width:774px){
+    .navbar-links{
+        display: none;
+    }
     .navbar-links ul {
         /* display: none; */
         flex-direction: column;
